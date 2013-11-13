@@ -8,7 +8,11 @@
 
 
 
-def butterfly(string(raw_input)):
+def butterfly():
+	a=raw_input()
+	b= a[::-1]
+	
+	
 	
 	
 
