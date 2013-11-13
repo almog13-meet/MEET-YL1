@@ -1,5 +1,4 @@
-def divisors(raw_input):
-	n=int(raw_input("give me a number"))
+n=int(raw_input("give me a number"))
 	x=1
 	while x<n:
 		
