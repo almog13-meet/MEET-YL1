@@ -1,12 +1,12 @@
-
-n=int(raw_input("give me a number"))
-x=1
-while x<n:
+def divisors(raw_input):
+	n=int(raw_input("give me a number"))
+	x=1
+	while x<n:
 		
-	print x
+		print x
 	
-	if n%x==0:
-		print "divisable"
-	else:
-		print "not divisable"
-	x+=1
+		if n%x==0:
+			print "divisable"
+		else:
+			print "not divisable"
+		x+=1
